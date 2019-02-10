@@ -15,4 +15,4 @@ buildscript {
 apply plugin: 'testplugin'
 
 group = 'dk.fitfit.simple'
-version = '0.9.1-SNAPSHOT'
+version = '0.10.1-SNAPSHOT'
