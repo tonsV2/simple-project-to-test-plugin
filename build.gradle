@@ -12,7 +12,9 @@ buildscript {
 }
 
 apply plugin: 'source-release'
-sourceRelease.message = 'Hi from Gradle'
+sourceRelease {
+    bumpStrategy = "MAJOR"
+}
 
 group = 'dk.fitfit.simple'
 version = '0.37.0-SNAPSHOT'
