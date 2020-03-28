@@ -12,6 +12,7 @@ buildscript {
 }
 
 apply plugin: 'source-release'
+sourceRelease.message = 'Hi from Gradle'
 
 group = 'dk.fitfit.simple'
 version = '0.34.0-SNAPSHOT'
